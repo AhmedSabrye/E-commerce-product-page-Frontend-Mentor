@@ -25,7 +25,7 @@ const ProductInfo = ({ onAddToCart }: ProductInfoProps) => {
   };
 
   return (
-    <div className="md:w-1/2 px-6 py-6 md:py-16 md:pl-16 md:pr-32 text-start">
+    <div className="md:w-1/2 py-6  text-start">
       {/* Company */}
       <p className="text-orange uppercase font-bold tracking-wider text-sm mb-4">Sneaker Company</p>
       

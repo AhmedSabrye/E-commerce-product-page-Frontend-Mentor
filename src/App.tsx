@@ -48,7 +48,7 @@ function App() {
       <Header cartItems={cartItems} onRemoveItem={handleRemoveItem} />
       
       <main className="container mx-auto md:pt-24 flex-1">
-        <div className="flex flex-col md:flex-row md:items-center">
+        <div className="flex flex-col w-10/12 mx-auto md:flex-row md:items-center">
           <ProductGallery />
           <ProductInfo onAddToCart={handleAddToCart} />
         </div>

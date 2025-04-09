@@ -73,7 +73,7 @@ const ProductGallery = () => {
       </div>
 
       {/* Desktop Gallery */}
-      <div className="hidden w-3/4 mx-auto md:block">
+      <div className="hidden w-3/4  md:block">
         {/* Main Image */}
         <div className="mb-8">
           <button 
