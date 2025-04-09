@@ -119,7 +119,7 @@ const Header = ({ cartItems = [], onRemoveItem = () => {} }: HeaderProps) => {
       
       {/* Cart Dropdown */}
       {isCartOpen && (
-        <div className="absolute top-24 start-1/2 -translate-x-1/2 md:right-12 w-full max-w-sm bg-white rounded-lg shadow-xl z-30">
+        <div className="absolute top-24 start-1/2 -translate-x-1/2 md:start-auto md:translate-x-0 md:right-12 w-full max-w-sm bg-white rounded-lg shadow-xl z-30">
           <div className="p-6 border-b border-grayish-blue/20">
             <h3 className="font-bold text-very-dark-blue">Cart</h3>
           </div>
