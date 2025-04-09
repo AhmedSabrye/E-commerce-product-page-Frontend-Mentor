@@ -44,10 +44,10 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen font-kumbh-sans pt-[5rem] md:pt-0">
+    <div className="flex flex-col min-h-screen font-kumbh-sans pt-[5rem] md:pt-0">
       <Header cartItems={cartItems} onRemoveItem={handleRemoveItem} />
       
-      <main className="container mx-auto md:py-6">
+      <main className="container mx-auto md:pt-24 flex-1">
         <div className="flex flex-col md:flex-row md:items-center">
           <ProductGallery />
           <ProductInfo onAddToCart={handleAddToCart} />
